@@ -1,0 +1,506 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3920691100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has launched the application and logged in successfully",
+            "match": {
+              "location": "StepDefinations.AddToCartStepDef.user_has_launched_the_application_and_logged_in_successfully()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-02T18:55:27.997Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2040403900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-add-to-cart-functionality-in-swag-labs.;",
+        "after": [
+          {
+            "result": {
+              "duration": 280458200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66003700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Add to cart button",
+            "match": {
+              "location": "StepDefinations.AddToCartStepDef.user_clicks_on_Add_to_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1095495300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User goes to cart",
+            "match": {
+              "location": "StepDefinations.AddToCartStepDef.user_goes_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2036432300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The product should be present in cart",
+            "match": {
+              "location": "StepDefinations.AddToCartStepDef.the_product_should_be_present_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Cart"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be used to test add to cart functionality in swag labs.",
+    "description": "",
+    "id": "this-feature-will-be-used-to-test-add-to-cart-functionality-in-swag-labs.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/AddToCart.feature",
+    "tags": [
+      {
+        "name": "@Cart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2436568400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has launched the application",
+            "match": {
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_has_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-02T18:55:37.517Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1315123100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validate the Login success scenario using Parameters",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-login-functionality-in-swag-labs;validate-the-login-success-scenario-using-parameters",
+        "after": [
+          {
+            "result": {
+              "duration": 266343700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 114011500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83006400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131012200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on Login button",
+            "match": {
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3006883100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2417086700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has launched the application",
+            "match": {
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_has_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-02T18:55:44.890Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1099876900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate Login Failure scenarios using Outline",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-login-functionality-in-swag-labs;validate-login-failure-scenarios-using-outline;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 292146300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 148012300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94008000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter password as \"Testing@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testing@123\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77006000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on Login button",
+            "match": {
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46003600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should get error as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_should_get_error_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2414606000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has launched the application",
+            "match": {
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_has_launched_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-02T18:55:49.077Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1078765400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Validate Login Failure scenarios using Outline",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-login-functionality-in-swag-labs;validate-login-failure-scenarios-using-outline;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 405805100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinations.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 145012200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter username as \"locked_out_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"locked_out_user\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94006700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70005300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on Login button",
+            "match": {
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40002500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should get error as \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Sorry, this user has been locked out.\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinations.LoginSwagLabsStepDef.user_should_get_error_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be used to test Login functionality in Swag Labs",
+    "description": "",
+    "id": "this-feature-will-be-used-to-test-login-functionality-in-swag-labs",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LoginSwagLab.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
